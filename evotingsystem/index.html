@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronic Voting System</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Other meta tags and links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">  
+</head>
+<body>
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <header class="top-bar">
+    <div class="container">
+      <div class="contact-info">
+        <input type="text" placeholder="Search">
+      </div>
+    </div>
+  </header>
+  <div class="eci-logo-container">
+    <img src="eci.png" alt="ECI Logo" class="eci-logo">
+    <div class="eci-text">
+      <div>Election Commission of India</div>
+      <div>भारत निर्वाचन आयोग</div>
+    </div>
+  </div>
+  
+    <div class="search-icon">
+      <i class="fas fa-search"></i>
+    </div>
+    
+  <!-- Particles.js background -->
+  <div id="particles-js"></div>
+  <!-- Include Particles.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+  <div class="container">
+    <h1>Electronic Voting Machine</h1>
+    <!-- ECI Logo -->
+  </div>
+    <form id="votingForm">
+      <div class="party-container">
+        <!-- Party items -->
+        <div class="party-item" id="party-bjp">
+          <img src="bjp.png" alt="BJP">
+          <h2>BJP</h2>
+          <button type="button" onclick="castVote('bjp', this)">Vote</button>
+          <!-- Red light below the button -->
+          <div class="red-light"></div>
+        </div>
+        <div class="party-item" id="party-aap">
+          <img src="aap.webp" alt="AAP">
+          <h2>AAP</h2>
+          <button type="button" onclick="castVote('aap', this)">Vote</button>
+          <div class="red-light"></div>
+        </div>
+        <div class="party-item" id="party-inc">
+          <img src="inc.jpeg" alt="INC">
+          <h2>INC</h2>
+          <button type="button" onclick="castVote('inc', this)">Vote</button>
+          <div class="red-light"></div>
+        </div>
+        
+        <div class="party-item" id="party-dmk">
+          <img src="dmk.jpg" alt="DMK">
+          <h2>DMK</h2>
+          <button type="button" onclick="castVote('dmk', this)">Vote</button>
+          <div class="red-light"></div>
+        </div>
+        
+        <div class="party-item" id="party-tdp">
+          <img src="tdp.png" alt="TDP">
+          <h2>TDP</h2>
+          <button type="button" onclick="castVote('tdp', this)">Vote</button>
+          <div class="red-light"></div>
+        </div>        
+      </div>
+    </form>
+    <p id="message"></p>
+  </div>
+  
+  <section class="about-eci">
+    <h2>About ECI</h2>
+    <p class="about-eci-info">The Election Commission of India (ECI) is an autonomous constitutional authority responsible for administering election processes in India. It was established on 25th January 1950, the day the Indian Constitution came into existence.</p>
+  </section>
+  <!-- Particle configuration -->
+  <script src="particles-config.js"></script>
+  <!-- Your script -->
+  <script src="script.js"></script>
+ 
+  <!-- Images container -->
+  <div class="contact-us-container">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <div class="toll-free">Toll-Free: 1-800-123-4567</div>
+      <input type="btext" placeholder="Enter your email">
+      <br>
+      <button type="button">Submit</button>
+    </div>
+    <div class="container mt-5">
+      <div class="spe">
+        <!-- NITI Aayog Card -->
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">NITI Aayog</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Let your youth count</h6>
+              <p class="card-text">Apply for online internships right in the Govt. of India</p>
+              <a href="https://www.niti.gov.in/" class="card-link">NITI Aayog</a>
+              <a href="https://dpiit.gov.in/" class="card-link">DPIIT</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flag">
+           <img src="flag.jpg" class="flag-image" alt="Flag Image">
+        </div>
+       
+
+        <!-- Ministry of Education Card -->
+        <div class="row-md-6">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Ministry of Education</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Empowering Education</h6>
+              <p class="card-text">Explore educational initiatives and scholarships by the Government of India.</p>
+              <a href="https://www.education.gov.in/" class="card-link">Ministry of Education</a>
+              <a href="https://scholarships.gov.in/" class="card-link">Scholarships Portal</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+</body>
+</html>
