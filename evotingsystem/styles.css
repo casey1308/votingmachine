@@ -44,10 +44,12 @@ h2 {
   display: none; /* Initially hidden */
   position: absolute;
   bottom: 1000vw; /* Adjust as needed */
-  left: 10%; /* Align it horizontally to the center of the button */
-  transform: translateY(
-    600%
+  /* Align it horizontally to the center of the button */
+  transform: translateX(
+    -20px
   ); /* Move it back by 50% of its own width to center it horizontally */
+  transform: translateY(200px);
+  opacity: 0.8;
 }
 
 .eci-logo-container {
@@ -137,8 +139,7 @@ h2 {
 
 .toll-free {
   margin-right: 700px;
-  margin-left: 80px; /* Add space between toll-free number and search input */
-  align-items: center;
+  margin-left: 90px; /* Add space between toll-free number and search input */
   color: white;
   transition: color 0.3s; /* Add transition for smooth color change */
   cursor: pointer;
@@ -263,7 +264,7 @@ button[type="button"] {
 
 .toll-free {
   color: white;
-  margin-left: 71vw;
+  margin-left: 66vw;
 }
 
 input[type="btext"] {
