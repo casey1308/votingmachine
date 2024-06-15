@@ -26,7 +26,7 @@ h1 {
   margin-top: 0.1px;
 }
 h1:hover {
-  color: orange; /* Change color to yellow on hover */
+  color: orange; 
 }
 
 h2 {
@@ -44,20 +44,20 @@ h2 {
   display: none; /* Initially hidden */
   position: absolute;
   bottom: 1000vw; /* Adjust as needed */
-  /* Align it horizontally to the center of the button */
+
   transform: translateX(
     -20px
-  ); /* Move it back by 50% of its own width to center it horizontally */
+  );
   transform: translateY(200px);
   opacity: 0.8;
 }
 
 .eci-logo-container {
-  display: flex; /* Align items horizontally */
-  align-items: center; /* Vertically center items */
+  display: flex;
+  align-items: center;
   position: absolute;
-  top: 20px; /* Adjust as needed */
-  left: 20px; /* Adjust as needed */
+  top: 20px; 
+  left: 20px; 
 }
 
 .eci-logo {
@@ -115,19 +115,17 @@ h2 {
   cursor: pointer;
 }
 
-/* Hover effect for the paragraph */
 .about-eci-info:hover {
-  color: orange; /* Change paragraph color on hover */
+  color: orange;
 }
 
-/* Top bar styles */
 .top-bar-container {
   background-color: rgba(
     51,
     51,
     51,
     0.8
-  ); /* Background color of the top bar with reduced opacity */
+  ); 
   color: #fff; /* Text color */
   padding: 10px 0; /* Padding for top and bottom */
 }
@@ -139,7 +137,7 @@ h2 {
 
 .toll-free {
   margin-right: 700px;
-  margin-left: 90px; /* Add space between toll-free number and search input */
+  margin-left: 90px; 
   color: white;
   transition: color 0.3s; /* Add transition for smooth color change */
   cursor: pointer;
@@ -149,9 +147,9 @@ h2 {
 }
 
 input[type="text"] {
-  padding: 8px; /* Padding for input field */
+  padding: 8px; 
   border: none; /* Remove border */
-  border-radius: 5px; /* Add border radius */
+  border-radius: 5px; 
   width: 50px; /* Set width of input field */
   margin-left: 70vw;
 }
@@ -197,7 +195,6 @@ input[type="text"] {
   left: 0;
 }
 
-/* Style for container */
 .container {
   position: relative;
   z-index: 1;
@@ -231,7 +228,7 @@ button[type="button"]:hover {
   background-color: navy;
 }
 .contact-us-container {
-  margin-top: 40px; /* Adjust margin as needed */
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -250,7 +247,7 @@ button[type="button"]:hover {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center items horizontally */
-  margin: 0 auto; /* Center the container */
+  margin: 0 auto;
   max-width: 300px; /* Set a maximum width */
 }
 
@@ -259,7 +256,7 @@ input[type="text"],
 button[type="button"] {
   margin-bottom: 10px; /* Space between elements */
   width: 100%; /* Full width for elements */
-  text-align: left; /* Align text to the left */
+  text-align: left; 
 }
 
 .toll-free {
@@ -271,7 +268,7 @@ input[type="btext"] {
   padding: 8px;
   border: none;
   border-radius: 5px;
-  box-sizing: border-box; /* Ensure padding is included in width */
+  box-sizing: border-box;
   margin-left: 0.5vw;
   display: flex;
   flex-direction: column;
@@ -302,61 +299,56 @@ button[type="button"]:hover {
   cursor: pointer;
 }
 .flag-image:hover {
-  transform: scaleX(1.2); /* Enlarge horizontally only on hover */
-}
-
-/* Custom Card Styles */
-/* Custom Card Styles for Voting System */
+  transform: scaleX(1.2); 
 .card {
-  border: 1px solid #e0e0e0; /* Light border around the card */
-  border-radius: 0.5rem; /* Slightly rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a lifted effect */
-  margin-bottom: 2rem; /* Space below each card */
-  transition: transform 0.2s; /* Smooth hover effect */
+  border: 1px solid #e0e0e0; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 2rem; 
+  transition: transform 0.2s; 
   cursor: pointer;
   margin-left: 40px;
   height: 50vh;
 }
 
 .card:hover {
-  transform: translateY(-20px); /* Lift card on hover */
+  transform: translateY(-20px); 
 }
 
 .card-body {
-  padding: 1.5rem; /* Consistent padding inside the card body */
+  padding: 1.5rem;
 }
 
 .card-title {
-  font-size: 1.25rem; /* Adjusted font size for the card title */
-  font-weight: bold; /* Bold font weight for emphasis */
-  margin-bottom: 1rem; /* Space below the title */
+  font-size: 1.25rem; 
+  font-weight: bold;
+  margin-bottom: 1rem; 
   color: white;
 }
 .card-title:hover {
-  color: orange; /* Change color to orange on hover */
+  color: orange; 
 }
 
 .card-subtitle {
-  font-size: 1rem; /* Standard font size for the subtitle */
-  margin-bottom: 1rem; /* Space below the subtitle */
-  color: #b2b9c0; /* Bootstrap secondary text color */
+  font-size: 1rem;
+  margin-bottom: 1rem; 
+  color: #b2b9c0; 
 }
 
 .card-text {
-  font-size: 1rem; /* Standard font size for the text */
-  color: #cfcbcb; /* Darker text color for better contrast */
-  margin-bottom: 1.5rem; /* Space below the text */
-}
+  font-size: 1rem; 
+  color: #cfcbcb;
+  margin-bottom: 1.5rem; 
 
 .card-link {
-  font-size: 1rem; /* Standard font size for the links */
-  color: orange; /* Bootstrap primary color for links */
-  text-decoration: none; /* Remove underline from links */
-  margin-right: 1rem; /* Space between links */
+  font-size: 1rem; 
+  color: orange; 
+  text-decoration: none;
+  margin-right: 1rem;
 }
 
 .card-link:hover {
-  text-decoration: underline; /* Underline on hover for better accessibility */
+  text-decoration: underline; 
 }
 
 #message {
@@ -372,7 +364,6 @@ button[type="button"]:hover {
   align-items: center;
   margin-right: 20px;
 }
-/* Custom CSS for the second card to shift it to the right edge */
 
 .flag {
   width: 30vw;
