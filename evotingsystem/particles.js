@@ -1,18 +1,17 @@
-// Define particles.js configuration object
 var particlesConfig = {
     "particles": {
       "number": {
-        "value": 80, // Number of particles
+        "value": 80,
         "density": {
           "enable": true,
-          "value_area": 800 // Area where particles will be distributed
+          "value_area": 800
         }
       },
       "color": {
-        "value": "#ffffff" // Color of particles
+        "value": "#ffffff" 
       },
       "shape": {
-        "type": "circle", // Shape of particles (circle, edge, triangle, polygon, star, image)
+        "type": "circle", 
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -27,7 +26,7 @@ var particlesConfig = {
         }
       },
       "opacity": {
-        "value": 0.5, // Opacity of particles
+        "value": 0.5,
         "random": false,
         "anim": {
           "enable": false,
@@ -37,7 +36,7 @@ var particlesConfig = {
         }
       },
       "size": {
-        "value": 3, // Size of particles
+        "value": 3, 
         "random": true,
         "anim": {
           "enable": false,
@@ -47,15 +46,15 @@ var particlesConfig = {
         }
       },
       "line_linked": {
-        "enable": true, // Whether particles are connected by lines
-        "distance": 150, // Distance between particles
-        "color": "#ffffff", // Color of lines
-        "opacity": 0.4, // Opacity of lines
-        "width": 1 // Width of lines
+        "enable": true, 
+        "distance": 150, 
+        "color": "#ffffff", 
+        "opacity": 0.4,
+        "width": 1 
       },
       "move": {
-        "enable": true, // Whether particles are moving
-        "speed": 6, // Speed of particle movement
+        "enable": true, 
+        "speed": 6, 
         "direction": "none",
         "random": false,
         "straight": false,
@@ -109,6 +108,5 @@ var particlesConfig = {
     "retina_detect": true
   };
   
-  // Initialize particles.js with configuration object
   particlesJS('particles-js', particlesConfig);
   
